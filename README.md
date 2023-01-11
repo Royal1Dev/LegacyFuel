@@ -8,14 +8,7 @@
 ### Start installing now
 We will now provide you with a step-by-step guide for the installation process. Shouldn't take too long and it shouldn't be too confusing either! 
 
-### Step 1:
-Go ahead and start by dragging and dropping ps-fuel into your designated resources folder.
-
-If you are still lost, Slothy has created a few GIF's to help guide you through all the installation steps.
-
-![explorer_rKiz0tBzmo](https://user-images.githubusercontent.com/91661118/169417369-59282006-7284-477d-853f-c29b108baa5d.gif)
-
-### Step 2: 
+### Step 1: 
 First copy the snippet below and then navigate to your **qb-smallresources/client/ignore.lua**
 
 ```lua
@@ -47,7 +40,7 @@ then paste this snippet over the existing lines shown in the GIF below.
 
 ![Code_rCl4lhFAY5](https://user-images.githubusercontent.com/91661118/169423678-9b55f693-de65-4e9d-b595-3a61ee31ca17.gif)
 
-### Step 3:
+### Step 2:
 ```if weaponName == "weapon_petrolcan" or weaponName == "weapon_fireextinguisher"```
 
 Copy this line and then navigate to your **qb-inventory/client/main.lua** paste this in your Visual Studio Code search bar.
@@ -61,7 +54,7 @@ after it takes you to spot we need, copy this snippet and paste it over the few 
 
 ![Code_YbMuUyZnUS](https://user-images.githubusercontent.com/91661118/169424450-5220ea12-24a4-4bcc-a7d2-c68950cb4d27.gif)
 
-### Step 4:
+### Step 3:
 ```TriggerServerEvent("weapons:server:UpdateWeaponAmmo", CurrentWeaponData, tonumber(ammo))```
 
 Copy this line and then navigate to your **qb-weapons/client/main.lua** paste this in your Visual Studio Code search bar.
